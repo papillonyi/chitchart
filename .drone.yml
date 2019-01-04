@@ -1,12 +1,11 @@
 workspace:
   base: /go
-  path: src/github.com/drone/drone
+  path: src/github.com/papillonyi/chitchart
 
 pipeline:
   build:
     image: golang
     commands:
     - echo $GOPATH
-    - go get
     - go build
     - go test
