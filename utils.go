@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/papillonyi/chitchat/data"
+	"github.com/papillonyi/chitchart/data"
 	"html/template"
 	"log"
 	"net/http"

@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/papillonyi/chitchat/data"
+	"github.com/papillonyi/chitchart/data"
 	"net/http"
 )
 

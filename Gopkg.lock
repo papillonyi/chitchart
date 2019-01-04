@@ -17,7 +17,7 @@
   analyzer-version = 1
   input-imports = [
     "github.com/lib/pq",
-    "github.com/papillonyi/chitchat/data",
+    "github.com/papillonyi/chitchart/data",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
