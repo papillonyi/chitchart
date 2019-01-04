@@ -1,3 +1,5 @@
+-- noinspection SqlNoDataSourceInspectionForFile
+
 drop table posts;
 drop table threads;
 drop table sessions;

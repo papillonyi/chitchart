@@ -7,5 +7,6 @@ pipeline:
     image: golang
     commands:
     - echo $GOPATH
+    - go get
     - go build
     - go test
