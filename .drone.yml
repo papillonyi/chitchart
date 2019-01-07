@@ -7,7 +7,7 @@ pipeline:
     image: golang
     commands:
 #    - go get
-    - go build
+    - CGO_ENABLED=0 go build -tags netgo -a -v
 #    - go test
   publish:
     image: plugins/docker
