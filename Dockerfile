@@ -3,4 +3,3 @@ ADD ./chitchart /bin/chitchart
 RUN chmod +x /bin/chitchart
 
 EXPOSE 8080
-ENTRYPOINT ["/bin/chitchart"]
