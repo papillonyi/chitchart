@@ -12,3 +12,5 @@ pipeline:
   publish:
     image: plugins/docker
     repo: registry-vpc.cn-shanghai.aliyuncs.com/papillonyispace/chitchat
+    username: andyi@live.cn
+    password: 123456Y
