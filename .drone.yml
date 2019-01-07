@@ -8,4 +8,7 @@ pipeline:
     commands:
 #    - go get
     - go build
-    - go test
+#    - go test
+  publish:
+    image: plugins/docker
+    repo: registry-vpc.cn-shanghai.aliyuncs.com/papillonyispace/chitchat
