@@ -3,6 +3,6 @@
   "ReadTimeout"    : 10,
   "WriteTimeout"   : 600,
   "Static"         : "public",
-  "DbHost"         : "127.0.0.1:5432",
+  "DbHost"         : "pg-1-postgresql:5432",
   "DbPassword"     : "root"
 }
